@@ -17,7 +17,7 @@ pit_2 = Pit(x=random.randint(480, 570), y=random.randint(30, 400), file='images/
 
 
 def get_info():
-    canvas.create_text(730, 530, text='Разработчик игры \"FunCars\" - Павел Фенёв', font='Arial 9', fill='green')
+    canvas.create_text(730, 530, text='Разработчик игры \"FunCars\" - your_name', font='Arial 9', fill='green')
 
 
 def select_color(color):
